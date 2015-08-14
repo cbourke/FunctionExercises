@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Synchronicity</title>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+
+  <div class="container">
+
+    <div class="jumbotron">
+    <h2>Synchronicity</h2>
+        <div id="errorArea"></div>
+        <p>Click the button below to see what happens.  The <i>intended</i>
+            behavior is that each alert box should fade out/in one after the
+            other.</p>
+        <p><button class="btn btn-default" onclick="animate()">Animate</button></p>
+    </div><!-- end of jumbotron -->
+
+      <div class="container col-md-12">
+
+        <div id="alert1" class="alert alert-info alert-dismissible" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <strong>Fact!</strong> In the UK, it is illegal to eat mince pies on Christmas Day!
+        </div>
+
+        <div id="alert2" class="alert alert-info alert-dismissible" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <strong>Fact!</strong> You cannot snore and dream at the same time.
+        </div>
+
+        <div id="alert3" class="alert alert-info alert-dismissible" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <strong>Fact!</strong> The Titanic was the first ship to use the SOS signal.
+        </div>
+
+      </div>
+  </div>
+
+  </body>
+</html>

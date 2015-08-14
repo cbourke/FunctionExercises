@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Creating A Div</title>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+
+  <div class="container">
+
+    <div class="jumbotron">
+    <h2>Creating A Div</h2>
+        <p>If you wrote your function correctly, entering values and clicking
+            Test should make the alert appear below.  Be sure to change the
+            code in the <code>test()</code> function too!</p>
+        <p><select id="type" class="form-control">
+              <option>success</option>
+              <option>info</option>
+              <option>warning</option>
+              <option>danger</option>
+            </select></p>
+        <p><input id="title" type="text" class="form-control" placeholder="Title"></p>
+        <p><input id="message" type="text" class="form-control" placeholder="Message"></p>
+        <p><button class="btn btn-default" onclick="test()">Test</button></p>
+    </div><!-- end of jumbotron -->
+
+      <div class="container col-md-12">
+        <div id="main">
+        </div>
+
+      </div>
+  </div>
+
+  </body>
+</html>

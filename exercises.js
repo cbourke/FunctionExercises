@@ -4,22 +4,18 @@
 
 //3. Logarithm function
 
-//4. array sum function
+//4. ROI function
 
-//5. array mean function
+//5. Numerical Comparator function
 
-//6. ROI function
+//6. Person/name comparator function
 
-//7. Numerical Comparator function
+//7. find the max value in an array of numbers
 
-//8. Person/name comparator function
-
-//9. find the max value in an array of numbers
-
-//10. Generalized getMax function
+//8. Generalized getMax function
 
 
-//a person array to gets your generalized getMax function
+//a person array to test your generalized getMax function
 var personArray = [
   {
     firstName: "Joe",
@@ -48,5 +44,7 @@ var personArray = [
 ];
 
 //testing your generalized getMax Function:
-var maxNumber = ([1, 8, 4, 3, 1, 40, 32, 1, 10], cmpNumeric);
-var maxPerson = (personArray, cmpPerson);
+var maxNumber = getMax([1, 8, 4, 3, 1, 40, 32, 1, 10], cmpNumeric);
+console.log("Maximum Number: " + maxNumber);
+var maxPerson = getMax(personArray, cmpPerson);
+console.log("Maximum Person: " + maxPerson);

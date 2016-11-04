@@ -1,5 +1,5 @@
 
-function animate() {
+function animate1() {
 
   //reset the colors/text:
   $("#mainHeader").text("Cold!");
